@@ -98,6 +98,7 @@ class Try extends Component {
                 }
             };
         this.setState({isLoading: true});
+        console.log('http://' + process.env.REACT_APP_FLASK_APP_HOST + ':' + process.env.REACT_APP_FLASK_APP_PORT + '/inference')
         post('http://' + process.env.REACT_APP_FLASK_APP_HOST + ':' + process.env.REACT_APP_FLASK_APP_PORT + '/inference', formData, config)
                 .then(response => {
                     console.log(response.data)
