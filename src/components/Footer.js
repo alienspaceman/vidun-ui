@@ -5,7 +5,8 @@ import {faEnvelope} from "@fortawesome/free-solid-svg-icons";
 
 export const Container = styled.div`{
   position: absolute;
-  top: 90%;
+  bottom: 0;
+  //top: 100%;
   width: 100%;
   height: 10%;
 }
