@@ -4,11 +4,13 @@ import {faGithub, faPatreon, faTelegram} from "@fortawesome/free-brands-svg-icon
 import {faEnvelope} from "@fortawesome/free-solid-svg-icons";
 
 export const Container = styled.div`{
-  position: absolute;
-  bottom: 0;
+  position: relative;
+  margin-top: auto;
+  margin-bottom: 5px;
+  //bottom: 0;
   //top: 100%;
   width: 100%;
-  height: 10%;
+  //height: 10%;
 }
 `;
 
